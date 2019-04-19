@@ -1,0 +1,253 @@
+*{
+  scroll-behavior: smooth !important;
+}
+
+.extLinks{
+  display: none;
+}
+
+.nav-item{
+  margin: 0 1em;
+}
+
+.cadLogo{
+  width: 45vw;
+  height: auto;
+  margin-left: 3vw;
+}
+
+.nameDave{
+  display: flex;
+  color: #FFFFFF;
+  opacity: 0.8;
+  flex-direction: column;
+  font-size: 1vw;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 5vw;
+}
+
+.nameDave h1{
+  text-align: left;
+  margin-top: 30vh;
+  float: right;
+  font-size: 3vw;
+}
+
+.name h3{
+  margin-top: 6vh;
+}
+
+.slogan{
+  font-family: courier;
+  font-size: 1.2em;
+  background: #404040;
+  padding: 0 0.3em;
+  border-radius: 10px;
+}
+
+.daveLinks{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4.25%;
+  padding: 0;
+}
+
+.daveLinks li{
+  list-style-type: none;
+  margin: 0 1.5em 0 1em;
+}
+
+.daveLinks i{
+  color: #aaa7a4;
+  transition: .5s;
+}
+
+.daveLinks i:hover{
+  color: #000000;
+}
+
+
+.description{
+  margin-bottom: 2em;
+  font-weight: 600;
+}
+
+.intro{
+  height: 40vh;
+}
+
+.sectionTitle{
+  padding-top: 3em;
+  margin-top: 6em;
+  border-top: 1px solid black;
+}
+
+.sectionInfo{
+  margin: 2em 0;
+}
+
+.nav-link{
+  padding: 0 3em;
+  font-weight: 600;
+}
+
+#projectSection{
+  min-height: 80vh;
+}
+
+@font-face {
+    font-family: 'andromeda';
+    src: url('andromeda-webfont.woff2') format('woff2'),
+         url('andromeda-webfont.woff') format('woff'),
+         url('fonts/andromeda-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bleeding_cowboysregular';
+    src: url('fonts/bleeding_cowboys-webfont.woff2') format('woff2'),
+         url('fonts/bleeding_cowboys-webfont.woff') format('woff'),
+         url('fonts/bleeding_cowboys-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lcd_solidregular';
+    src: url('fonts/lcd_solid-webfont.woff2') format('woff2'),
+         url('fonts/lcd_solid-webfont.woff') format('woff'),
+         url('fonts/lcd_solid-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#astroFont{
+  font-family: "andromeda", "Montserrat", "Helvetica", Arial, sans-serif;
+  color: #5f3c98;
+}
+
+#dreadFont{
+  font-family: "bleeding_cowboysregular", "Montserrat", "Helvetica", Arial, sans-serif;
+  color: #937a54;
+}
+
+#cowFont{
+  font-family: "lcd_solidregular", "Montserrat", "Helvetica", Arial, sans-serif;
+  color: #000;
+}
+
+.bolderFont{
+  font-weight: 500;
+}
+
+video, img{
+  width: 100%;
+  display: block;
+}
+
+.projectLinks{
+  font-size: 2em;
+  text-align: center;
+}
+
+.projectLinks a{
+  color: inherit;
+}
+
+.projGit{
+  font-size: 1.25em;
+}
+
+.projectIcons{
+  margin: 0 1em;
+}
+
+.projectLinks a:hover{
+  color: #000;
+}
+
+
+.footer{
+  height: 90vh;
+}
+
+@media (max-width: 767px) {
+  .page-header{
+    flex-direction: column;
+  }
+
+  .cadLogo{
+    width: 15em;
+  }
+
+  .logo{
+    margin: 0 auto;
+    padding-top: 10vh;
+    order: 1;
+  }
+
+  .avatar{
+    order: 2;
+  }
+
+  .avatar .img-circle{
+    margin: auto;
+  }
+
+  .avatar img{
+    margin-top: 5vh;
+    max-width: 55%;
+  }
+
+  .nameDave{
+    justify-content: center;
+    margin-left: 0;
+    order: 3;
+  }
+
+  .nameDave h1{
+    margin-top: 5vh;
+    font-size: 10vw;
+  }
+
+  .daveTitle{
+    font-size: 4vw;
+    margin: 0 auto;
+  }
+
+  .name h3{
+    margin-top: 1em;
+  }
+
+  .daveLinks{
+    margin: 0 auto;
+    margin-top: .5em;
+    padding:  0;
+    font-size: 5vw;
+  }
+
+  .daveLinks p{
+    display: none;
+  }
+
+  .nav-item{
+    display: inline-block;
+  }
+
+  .nav-link{
+    padding: 0;
+    font-weight: 400;
+  }
+
+  .extLinks{
+    display: flex;
+  }
+
+  .description{
+    text-align: left;
+    padding-left: 1em;
+  }
+
+}
