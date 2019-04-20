@@ -83,23 +83,28 @@
   border-top: 1px solid black;
 }
 
+.resTitle{
+  margin-top: 50vh;
+}
+
 .sectionInfo{
-  margin: 2em 0;
+  margin: 2em 0 0 0;
 }
 
 .nav-link{
   padding: 0 3em;
   font-weight: 600;
+  transition: 1s;
 }
 
-#projectSection{
-  min-height: 80vh;
+li .nav-link:hover{
+  color:#8b30c4 !important;
 }
 
 @font-face {
     font-family: 'andromeda';
-    src: url('andromeda-webfont.woff2') format('woff2'),
-         url('andromeda-webfont.woff') format('woff'),
+    src: url('fonts/andromeda-webfont.woff2') format('woff2'),
+         url('fonts/andromeda-webfont.woff') format('woff'),
          url('fonts/andromeda-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
