@@ -189,7 +189,7 @@ video, img{
 
   .logo{
     margin: 0 auto;
-    padding-top: 7vh;
+    padding-top: 4vh;
     order: 1;
   }
 
@@ -228,7 +228,7 @@ video, img{
 
   .daveLinks{
     margin: 0 auto;
-    margin-top: .5em;
+    /* margin-top: .5em; */
     padding:  0;
     font-size: 5vw;
   }
