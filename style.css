@@ -97,7 +97,7 @@
   transition: 1s;
 }
 
-li .nav-link:hover{
+li .nav-hover:hover{
   color:#8b30c4 !important;
 }
 
