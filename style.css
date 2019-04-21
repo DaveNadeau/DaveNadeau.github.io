@@ -177,18 +177,116 @@ video, img{
   justify-content: center;
 }
 
-/* .resCard{
+.resCard{
   border: 1px solid #000;
-  border-radius: 1px;
+  border-radius: 3px;
+  box-shadow: 5px 3px 10px;
+  margin-top: 3em;
+}
+
+.sideBar, .res-body{
+  margin: 3em 0;
+  line-height: .5;
+}
+
+.sideBar{
+  background-color: #d4d4d4;
+  color: #000;
+  margin-left:1em;
+  padding-bottom: 2em;
+}
+
+.sideHeader{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.sideBar a{
+  color: inherit;
+  text-decoration: underline;
+}
+
+.sideBar ul{
+  line-height: 3em;
+}
+
+.institute, .cert-type, .details{
+  line-height: 1em;
+}
+
+.institute{
+  font-weight: bolder;
+}
+
+.cert-type{
+
+}
+
+.details{
+  font-style: italic;
 }
 
 .resName{
-  font-weight: bolder;
-} */
+  text-align: right;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.res-defaultText{
+  font-size: .8em;
+  color: #000;
+}
+
+.mainHeader{
+  font-weight: 600;
+  font-size: 1.5em;
+  border-bottom: 1px solid #000;
+}
+
+.resNameHeader{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.resDuties{
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.websiteContainer{
+  display: flex;
+  justify-content: space-around;
+  line-height: 2em;
+}
+
+.websiteContainer a{
+  color: #000;
+}
+
+.jobDesc{
+  line-height: 2em;
+}
 
 .resImg{
   width: 100%;
   height:1200px;
+}
+
+.resDownload{
+  margin-top: 3em;
+}
+
+.btn, .btn-primary{
+  background-color: #ababab !important;
+  border-color: #ababab !important;
+  transition: all 1s ease-in-out;
+}
+
+.btn:hover, .btn-primary:hover{
+  background-color: #8b30c4 !important;
+  border-color: #8b30c4 !important;
+  transform: scale(1.1);
 }
 
 .footer{
@@ -269,6 +367,36 @@ video, img{
   .description{
     text-align: left;
     padding-left: 1em;
+  }
+
+  .sideBar{
+    background-color: inherit;
+  }
+
+  .sideHeader{
+    text-align: center;
+  }
+
+  .resName{
+    text-align: center;
+  }
+
+  .mainHeader{
+    text-align: center;
+  }
+
+  .res-defaultText{
+    font-size: 1.1em;
+  }
+
+  .websiteContainer{
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .websiteContainer a{
+    color: #0077ff;
   }
 
 }
