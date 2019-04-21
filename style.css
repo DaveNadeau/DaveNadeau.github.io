@@ -173,6 +173,8 @@ video, img{
   color: #000;
 }
 
+/* ***RESUME CSS*** */
+
 #resumeSection{
   justify-content: center;
 }
@@ -268,10 +270,7 @@ video, img{
   line-height: 2em;
 }
 
-.resImg{
-  width: 100%;
-  height:1200px;
-}
+/* ***END RESUME CSS SECTION*** */
 
 .resDownload{
   margin-top: 3em;
