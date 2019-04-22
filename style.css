@@ -288,6 +288,21 @@ video, img{
   transform: scale(1.1);
 }
 
+.contactIcons{
+  display: flex;
+  font-size: 2.5vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contactIcons i{
+  margin: 2em 4em;
+}
+
+.contactIcons a{
+  color: #66615B;
+}
+
 .footer{
   height: 90vh;
 }
@@ -396,6 +411,16 @@ video, img{
 
   .websiteContainer a{
     color: #0077ff;
+  }
+
+  .contactIcons{
+    font-size: 6.5vw;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contactIcons i{
+    margin: 2em 2em;
   }
 
 }
