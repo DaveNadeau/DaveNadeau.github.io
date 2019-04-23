@@ -305,6 +305,44 @@ video, img{
 
 .footer{
   height: 90vh;
+  display: flex;
+}
+
+.computer-key{
+  display: flex;
+  margin: 0 .5em;
+  top: 0px;
+  position: relative;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  width: 35px;
+  height: 35px;
+  box-shadow: 1px 5px 5px #5d5d5d;
+}
+
+.computer-key:hover{
+  top: 3px;
+  box-shadow: 1px 2px 2px #5d5d5d;
+}
+
+.escape{
+  display: block;
+}
+
+.return{
+  display: none;
+  margin-bottom: 3em;
+  background-color: #FFF;
+  color: #000;
+  font-family: "lcd_solidregular", "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+.return-key{
+  width: 100px;
 }
 
 @media (max-width: 767px) {
