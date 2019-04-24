@@ -4247,7 +4247,7 @@ License - nucleoapp.com/license/
 
 .nav-tabs-navigation {
   text-align: center;
-  border-bottom: 1px solid #F1EAE0;
+  border-bottom: 1px solid #444444;
   margin-bottom: 30px;
 }
 
@@ -4312,7 +4312,7 @@ License - nucleoapp.com/license/
 .nav-tabs .nav-item .nav-link.active:before,
 .nav-tabs .nav-item .nav-link.active:hover:before,
 .nav-tabs .nav-item .nav-link.active:focus:before {
-  border-bottom: 11px solid #F1EAE0;
+  border-bottom: 11px solid #444444;
   border-left: 11px solid transparent;
   border-right: 11px solid transparent;
   content: "";
