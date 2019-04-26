@@ -10,10 +10,29 @@
   margin: 0 1em;
 }
 
+.avatar{
+  z-index: 99;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 0 100%; }
+}
+
+.filter::after{
+  background-image: url("imgs/bin_bckgnd.jpg");
+  /* background-size: cover; */
+  background-repeat:repeat;
+  /* background-repeat: repeat-y; */
+  opacity: 0.1;
+  animation: animatedBackground 20s linear infinite;
+}
+
 .cadLogo{
   width: 45vw;
   height: auto;
   margin-left: 3vw;
+  z-index: 9;
 }
 
 .nameDave{
@@ -25,6 +44,7 @@
   align-items: flex-end;
   justify-content: flex-end;
   margin-left: 5vw;
+  z-index: 3;
 }
 
 .nameDave h1{
