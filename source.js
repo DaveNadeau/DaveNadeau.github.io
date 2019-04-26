@@ -18,7 +18,7 @@ window.addEventListener("scroll", function(){
   }
 });
 
-// let btns = document.getElementsByClassName("computer-key");
+//*** functions for escape and return buttons***//
 
 let escape = document.getElementsByClassName("escape");
 let returns = document.getElementsByClassName("return")
@@ -32,18 +32,3 @@ function returnTo(){
   escape[0].style.display = "block";
   returns[0].style.display = "none";
 }
-
-// for(let i = 0 ; i < btns.length; i++){
-//   let escape = document.getElementsByClassName("escape");
-//   let returns = document.getElementsByClassName("return")
-//   window.addEventListener("click", function(){
-//     if(btns[i].classList.contains("escape-key")){
-//       escape[0].style.display = "none";
-//       returns[0].style.display = "block";
-//     }
-//     else if(btns[i].classList.contains("return-key")){
-//       escape[0].style.display = "block";
-//       returns[0].style.display = "none";
-//     }
-//   });
-// }
