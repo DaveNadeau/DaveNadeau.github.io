@@ -28,11 +28,14 @@
   animation: animatedBackground 20s linear infinite;
 }
 
+.logo{
+  z-index: 9;
+}
+
 .cadLogo{
   width: 45vw;
   height: auto;
   margin-left: 3vw;
-  z-index: 9;
 }
 
 .nameDave{
@@ -76,9 +79,9 @@
 .daveLinks{
   display: flex;
   justify-content: flex-end;
-  margin-right: 1.5%;
-  margin-top: 1vh;
-  padding: 0;
+  margin-right: 1%;
+  /* margin-top: 1vh; */
+  padding: 1vh 0 0 0;
   font-size: 1.5vw;
 }
 
@@ -338,8 +341,12 @@ video, img{
   margin: 0 auto;
 }
 
-.fa-envelope, .fa-linkedin{
-  margin-left: 3em;
+.contactList a{
+  margin-left: 17vw;
+}
+
+.telNum{
+  margin-left: 0 !important;
 }
 
 .contactIcons i{
@@ -446,6 +453,10 @@ video, img{
     font-size: 5vw;
   }
 
+  .fa-linkedin{
+    margin: 0;
+  }
+
   .daveLinks p{
     display: none;
   }
@@ -526,6 +537,10 @@ video, img{
 
   #thisDesc{
     order: 6;
+  }
+
+  .contactList a{
+    margin-left: 3vw;
   }
 
   .contactIcons{
