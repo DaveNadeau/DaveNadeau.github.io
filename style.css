@@ -2,10 +2,6 @@
   scroll-behavior: smooth !important;
 }
 
-a:hover{
-  color: #32DEE1;
-}
-
 .extLinks{
   display: none;
 }
