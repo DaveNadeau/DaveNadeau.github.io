@@ -62,7 +62,7 @@
 }
 
 .slogan{
-  font-family: courier;
+  font-family: courier !important;
   font-size: 1.2em;
   position: relative;
   box-shadow: 0px 1px 5px #5d5d5d;
@@ -81,7 +81,7 @@
 .daveLinks{
   display: flex;
   justify-content: flex-end;
-  margin-right: 1%;
+  padding-right: 1%;
   /* margin-top: 1vh; */
   padding: 1vh 0 0 0;
   font-size: 1.5vw;
@@ -111,10 +111,18 @@
   height: 40vh;
 }
 
+.daveLinks, .blueBack{
+  background-color: #32DEE1 !important;
+}
+
+.section{
+  padding: 0 !important;
+}
+
 .sectionTitle{
   padding-top: 3em;
   margin-top: 6em;
-  border-top: 1px solid black;
+  /* border-top: 1px solid black; */
 }
 
 .sectionInfo{
@@ -218,6 +226,10 @@ video, img{
 
 #resumeSection{
   justify-content: center;
+}
+
+.resBack{
+  background-color: #FFF;
 }
 
 .resCard{
@@ -399,6 +411,10 @@ video, img{
 
 .return-key{
   width: 100px;
+}
+
+.footer{
+  margin-top: 5em;
 }
 
 @media (max-width: 767px) {
