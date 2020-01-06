@@ -110,9 +110,13 @@
 .intro{
   height: 40vh;
 }
-
+/*
 .daveLinks, .blueBack{
   background-color: #32DEE1 !important;
+} */
+
+.card{
+  background-color: #FFFFFC !important;
 }
 
 .section{
