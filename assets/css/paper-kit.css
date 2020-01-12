@@ -4299,7 +4299,7 @@ License - nucleoapp.com/license/
 .nav-tabs .nav-item .nav-link.active:after,
 .nav-tabs .nav-item .nav-link.active:hover:after,
 .nav-tabs .nav-item .nav-link.active:focus:after {
-  border-bottom: 11px solid #32DEE1;
+  border-bottom: 11px solid #FFFFFF;
   border-left: 11px solid transparent;
   border-right: 11px solid transparent;
   content: "";
@@ -5988,12 +5988,13 @@ License - nucleoapp.com/license/
 }
 
 .card a:not(.btn) {
-  color: #444444;
+  color: #32DEE1;
+  font-weight: bolder;
 }
 
 .card a:not(.btn):hover,
 .card a:not(.btn):focus {
-  color: #333333;
+  color: #8d32e1;
 }
 
 .card .card-description {

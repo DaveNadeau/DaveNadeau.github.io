@@ -116,7 +116,7 @@
 } */
 
 .card{
-  background-color: #FFFFFC !important;
+  background-color: #FFFFFF !important;
 }
 
 .section{
@@ -144,7 +144,7 @@
 }
 
 li .nav-hover:hover{
-  color:#8b30c4 !important;
+  color:#32DEE1 !important;
 }
 
 @font-face {
@@ -340,8 +340,9 @@ video, img{
 }
 
 .btn, .btn-primary{
-  background-color: #ababab !important;
-  border-color: #ababab !important;
+  background-color: #404040 !important;
+  border-color: #404040 !important;
+  color: #32DEE1 !important;
   box-shadow: 0px 2px 5px #3e3e3e;
   transition: all 1s ease-in-out;
 }
@@ -349,6 +350,7 @@ video, img{
 .btn:hover, .btn-primary:hover{
   background-color: #333333 !important;
   border-color: #333333 !important;
+  color: #8d32e1 !important;
   transform: scale(1.1);
 }
 
