@@ -571,6 +571,12 @@ video, img{
     order: 6;
   }
 
+  .contactList{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .contactList a{
     margin-left: 3vw;
   }
